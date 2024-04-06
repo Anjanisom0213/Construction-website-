@@ -188,12 +188,12 @@ button {
 
 .nav h3{
   color: #fff;
-  font-size: 1.5vw;
-  padding-left: -2rem;
+  font-size: 2.0vw;
+  padding-left: -4rem;
 }
 
 .nav h3:hover{
-  font-size: 1.04vw;
+  font-size: 1.8vw;
 }
 .nav a {
   font-size: 1.5vw;
@@ -675,8 +675,9 @@ button {
 
 /*=============== FOOTER ===============*/
 .footer{
-  background-color: darkgray;
-
+  background: linear-gradient(170deg,
+      hsl(0, 0%, 22%)0%,
+      hsl(0, 0%, 6%)30%);
 }
 
 /* footer img {
@@ -698,7 +699,7 @@ button {
 
 .footer .box-container .box h3{
   font-size: 2rem;
-  color: black;
+  color:#fff;
   padding: 1rem 0;
 
 }
@@ -710,14 +711,14 @@ button {
 .footer .box-container .box .links{
   display: block;
   font-size: 1rem;
-  color: black;
+  color: #fff;
   padding: 1rem 0;
 }
 
 .footer .box-container .box p{
   line-height: 1.8;
   font-size: 1rem;
-  color: black;
+  color: #fff;
   padding: 1rem 0;
 }
 
@@ -726,6 +727,7 @@ button {
 }
 .footer .box-container .box .links:hover i{
   padding-right: 2rem;
+  color: #fff;
 }
 
 .footer .box-container .box .share a{
@@ -735,8 +737,8 @@ button {
   border-radius: .5rem;
   font-size: 2rem;
   margin-left: .2rem;
-  color: black;
-  background: #eee;
+  color: #fff;
+  background: #000;
   text-align: center; 
 }
 
