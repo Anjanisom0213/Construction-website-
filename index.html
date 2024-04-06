@@ -11,49 +11,459 @@
         
         
         <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
 
     
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="css/styles.css">
 
         <title>Responsive real state website - Bedimcode</title>
     </head>
     <body>
        
         <header class="header" id="header">
-            
-        </header>
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Holux <i class='bx bxs-home-alt-2'></i>
+                    </a>
+
+                 <div class="nav__menu"> 
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class='bx bx-home-alt-2'></i>
+                                <span> Home</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#popular" class="nav__link">
+                                <i class='bx bx-building-house' ></i>
+                                <span> Residence</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#value" class="nav__link">
+                                <i class='bx bx-award' ></i>
+                                <span> Value</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bx-phone' ></i>
+                                <span> Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                 </div>
+        
+                 <a href="" class="button nav__button">
+                    Subscribe
+                 </a>
+                </nav>
+             </header>
 
         <!--==================== MAIN ====================-->
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
-                
+                <div class="home__container container grid"></div>
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Discover <br>Most Suitable <br>Property
+                    </h1>
+                   <p class="home__description">
+                    Find a variety pf properties that suit you very easyily ,
+                     forget al difficulties inn finding a residence for you 
+                   </p>
+
+                   <form action=" " class="home__search">
+                    <i class='bx bx-map' ></i>
+                    <input type="search" placeholder=" Search by location...." class="home__search-input">
+                     <button class="button"> Search  </button>
+                   </form> 
+
+                   <div class="home__value">
+                    <div>
+                        <h1 class="home__value-number"> 
+                           9k <span>+</span>
+                        </h1>
+                        <span class=" home__value-description">
+                            Premium <br> Product
+                        </span>
+                    </div> 
+                    <div>
+                        <h1 class="home__value-number"> 
+                           2k <span>+</span>
+                        </h1>
+                        <span class=" home__value-description">
+                            Happy <br> Customer
+                        </span>
+                    </div> 
+                    <div>
+                        <h1 class="home__value-number"> 
+                           28k <span>+</span>
+                        </h1>
+                        <span class=" home__value-description">
+                            Award <br> Winning
+                        </span>
+                    </div> 
+                 </div>
+                  </div>
+
+                  <div class="home__images">
+                    <div class="home__orbe"></div>
+                     <!-- photo change -->
+                    <div class="home__img">
+                        <img src="img/home.jpg" alt=" home">
+                    </div>
+                  </div>
+                </div>
             </section>
 
             <!--==================== LOGOS ====================-->
             <section class="logos section">
-                
+                <div class=" logos__container container grid">
+                    <div class=" logos__img">
+                        <img src="img/logo1.png" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="img/logo2.png" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="C:\Users\HP\AppData\Local\Temp\258fcf7d-86be-457e-a095-1be2e1dc5226_Construction-website--main.zip.226\Construction-website--main\img\logo3.png" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="img/logo4.png" alt="">
+                    </div>
+               </div>
             </section>
 
             <!--==================== POPULAR ====================-->
-            <section class="section" id="popular">
-                
+            <section class="section" id="popul6ar">
+                <div class="container">
+                    <span class="section_subtitle">Best Choise</span>
+                <h2 class="section__title">
+                    Popular Residence <span></span>
+                </h2>
+
+                <div class="popular__container swiper">
+                    <div class="swiper-wrapper">
+                        <article class="popular__card swiper-slide"> 
+                            <img src="img/popular1.jpg" alt="">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                 <span>$</span>66,356
+                                </h2>
+                                <h3 class="popular__title">
+                                  Garden City Assat
+                                </h3>
+                                <p class="popular__description">
+                                    Street The Garden City of Miraflores,
+                                    Lima-Peru Av. sol #9876
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide"> 
+                            <img src="img/popular2.jpg" alt="">
+                            
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                 <span>$</span>35,159
+                                </h2>
+                                <h3 class="popular__title">
+                                    Gables Luxurious House   
+                                </h3>
+                                <p class="popular__description">
+                                    Street The Garden City of Miraflores,
+                                    Lima-Peru Av. sol #9876
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide"> 
+                            <img src="img/popular.jpg" alt="">
+                            
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+
+                                </h2>
+                                <h3 class="popular__title">
+
+                                </h3>
+                                <p class="popular__description">
+                                    Street The Garden City of Miraflores,
+                                    Lima-Peru Av. sol #9876
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide"> 
+                            <img src="img/popular1.jpg" alt="">
+                            
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+
+                                </h2>
+                                <h3 class="popular__title">
+
+                                </h3>
+                                <p class="popular__description">
+                                    Street The Garden City of Miraflores,
+                                    Lima-Peru Av. sol #9876
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide"> 
+                            <img src="img/popular1.jpg" alt="">
+                            
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+
+                                </h2>
+                                <h3 class="popular__title">
+
+                                </h3>
+                                <p class="popular__description">
+                                    Street The Garden City of Miraflores,
+                                    Lima-Peru Av. sol #9876
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class='bx bxs-chevron-left' ></i>
+                    </div>
+                </div>
+                </div>
             </section>
 
             <!--==================== VALUE ====================-->
             <section class="value section" id="value">
-                
+                <div class="value__container container grid">
+                    <div class="value__images">
+                        <div class="value__img"><!--change -->
+                            <img src="img/" alt="">
+                      </div>
+                    </div>
+                    <div class="value__content">
+                        <div class="value__data">
+                            <span class="section__subtitle">Our Value </span>
+                            <h2 class="section__title">
+                                Value We Give To You <span>.</span>
+                            </h2>
+                            <p class="value__description">
+                            We always ready to help by providing the best services for you, 
+                            We belive a good place to live can make your life better .
+                            </p>
+                        </div>
+
+                        <div class="value__accordion">
+                            <div class="value__accordian-item">
+                                <header class="value__accordian-header">
+                                    <i class='bx bxs-shield-x value__accordian-icon' ></i>
+                                    <h3 class="value__accordian-title">
+                                        Best interest rates on the market
+                                    </h3>
+                                    <div class="value__accordian-arrow"></div>
+                                    <i class='bx bxs-down-arrow' ></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordian-content">
+                                    <p class="value__accordian-description">
+              
+                        </div>                          Price we provides is the best for you, 
+                                         we guarantee no price changes on your property due 
+                                            to various unexpected costs that may come.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value__accordian-item">
+                                <header class="value__accordian-header">
+                                    <i class='bx bxs-x-square' ></i>
+                                    <h3 class="value__accordian-title">
+                                        Prevent unstable prices
+                                    </h3>
+                                    <div class="value__accordian-arrow"></div>
+                                    <i class='bx bxs-down-arrow' ></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordian-content">
+                                    <p class="value__accordian-description">
+              
+                        </div>                          Price we provides is the best for you, 
+                                         we guarantee no price changes on your property due 
+                                            to various unexpected costs that may come.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value__accordian-item">
+                                <header class="value__accordian-header">
+                                    <i class='bx bxs-bar-chart-square' ></i>
+                                    <h3 class="value__accordian-title">
+                                        Best prices on the market 
+                                    </h3>
+                                    <div class="value__accordian-arrow"></div>
+                                    <i class='bx bxs-down-arrow' ></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordian-content">
+                                    <p class="value__accordian-description">
+              
+                        </div>                          Price we provides is the best for you, 
+                                         we guarantee no price changes on your property due 
+                                            to various unexpected costs that may come.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value__accordian-item">
+                                <header class="value__accordian-header">
+                                    <i class='bx bxs-check-square' ></i>
+                                    <h3 class="value__accordian-title">
+                                        Security of your data
+                                    </h3>
+                                    <div class="value__accordian-arrow"></div>
+                                    <i class='bx bxs-down-arrow' ></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordian-content">
+                                    <p class="value__accordian-description">
+              
+                                 </div>                          Price we provides is the best for you, 
+                                         we guarantee no price changes on your property due 
+                                            to various unexpected costs that may come.
+                                    </p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
             </section>
 
             <!--==================== CONTACT ====================-->
             <section class="contact section" id="contact">
-                
+                <div class="contact__container container grid">
+                    <div class="contact__images">
+                        <div class="contact__orbe"> </div>
+                        
+                        <div class="contact__img">
+                            <img src="img/contact.png" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="contact__content">
+                        <div class="contact_data">
+                            <span class="section__subtitle">Contact Us</span>
+                            <h2 class="section__title">
+                                Easy to Contact us <span>.</span>
+                            </h2>
+                           <p class="contact__description">
+                            Is there a problem finding your dream home? Need a 
+                            guide in buying first home? or need a consultation 
+                             on residential issues? just contact us.
+                           </p>
+                        </div>
+                        
+                        <div class="contact__card">
+                            <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxs-phone-call' ></i>
+
+                                      <div>
+                                        <h3 class="contact__card-title">
+                                             Call
+                                        </h3>
+                                        <p class="contact__card_description">
+                                            9758086929
+                                        </p>
+                                    </div>
+                                </div>
+                                <button class="button contact__card-button">
+                                    
+                                </button>
+                            </div>
+
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxs-message-rounded-dots' ></i>
+    
+                                          <div>
+                                            <h3 class="contact__card-title">
+                                                  Whatsapp
+                                            </h3>
+                                            <p class="contact__card_description">
+                                                8929640196
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <button class="button contact__card-button">
+                                        
+                                    </button>
+                                </div>
+
+                                <div class="contact__card-box">
+                                    <div class="contact__card-info">
+                                        <i class='bx bxl-instagram-alt' ></i>
+        
+                                              <div>
+                                                <h3 class="contact__card-title">
+                                                     Instagram
+                                                </h3>
+                                                <p class="contact__card_description">
+                                                    shakuntalamdivya_enterprises_
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <button class="button contact__card-button">
+                                            
+                                        </button>
+                                    </div>
+
+                                    <div class="contact__card-box">
+                                        <div class="contact__card-info">
+                                            <i class='bx bxs-envelope' ></i>
+            
+                                                  <div>
+                                                    <h3 class="contact__card-title">
+                                                        Mail
+                                                    </h3>
+                                                    <p class="contact__card_description">
+                                                        shankutalamdivyaenterprises@gmail.com
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <button class="button contact__card-button">
+                                                
+                                            </button>
+                                        </div>
+                        </div>
+
+                    </div>
+                </div>
+        
             </section>
 
             <!--==================== SUBSCRIBE ====================-->
             <section class="subscribe section">
-                
+                <div class="subscribe__container container">
+                    <h1 class="subscribe__title">
+                        Get Started with Space Alive 
+                    </h1>
+                </div>
             </section>
         </main>
 
@@ -67,12 +477,12 @@
 
 
         <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
+        <script src="js/scrollreveal.min.js"></script>
 
         <!--=============== SWIPER JS ===============-->
-        <script src=""></script>
+        <script src="js/swiper-bundle.min.js"></script>
 
         <!--=============== MAIN JS ===============-->
-        <script src=""></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
