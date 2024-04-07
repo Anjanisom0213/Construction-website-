@@ -238,7 +238,7 @@ background-color: hsl(228, 4%, 15%);
 
 .nav img {
   height: 80%;
-  border-radius: 43px;
+  border-radius: 13px;
 
 }
 
@@ -399,8 +399,9 @@ background-color: hsl(228, 4%, 15%);
 .home__images {
   position: relative;
   display: flex;
-  justify-content: center;
-}
+  justify-content: end;
+  margin-right: 50vh;
+  
 
 .home__orbe {
   width: 265px;
