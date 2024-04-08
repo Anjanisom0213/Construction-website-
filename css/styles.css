@@ -175,7 +175,10 @@ background-color: hsl(228, 4%, 15%);
 }
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 1024VH;
+  max-width: 1024vh;
+  padding-left: 30vh;
+  padding-right: 30vh;
+
   
 }
 
@@ -343,11 +346,13 @@ background-color: hsl(228, 4%, 15%);
   font-size: var(--biggest-font-size);
   line-height: 120%;
   margin-bottom: 1.25rem;
+  padding-left: 30vh;
 }
 
 .home__description {
   color: var(--text-color-light);
   margin-bottom: 2rem;
+  padding-left: 30vh;
 }
 
 .home__search {
@@ -401,16 +406,17 @@ background-color: hsl(228, 4%, 15%);
   display: flex;
   justify-content: end;
   margin-right: 50vh;
+}
   
 
-.home__orbe {
+/* .home__orbe {
   width: 265px;
   height: 284px;
   background: linear-gradient(180deg,
       hsl(0, 0%, 16%)93%,
       hsl(0, 0%, 67%)100%);
   border-radius: 135px 135px 0 0;
-}
+} */
 
 .home__img {
   position: absolute;
